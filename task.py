@@ -9,6 +9,7 @@ if __name__ == '__main__':
             result = a + b
             print('%i + %i = %i' % (a, b, result))
             f.write('%i + %i = %i\n' % (a, b, result))
+            f.flush()
 
             time.sleep(1)
             a += 1
